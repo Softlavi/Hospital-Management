@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<style>
+		.navbar{
+			background-color: #0000008c;
+		}
+		.navbar-nav li{
+			padding: 0 10px;
+		}
+		.navbar-nav li a{
+			color: #fff!important;
+			font-weight: 600;
+			font-size: 20px;
+		}
+		.moblogo{
+			display: none;
+		}
+		.weblogo{
+			width: 49px;
+		}
+		@media(max-width: 700px)
+		{
+			.moblogo{
+				display: block;
+			}
+			.weblogo{
+				width: 49px;
+				display: none;
+			}
+			.navbar{
+				background-color: #fec926;
+			}
+		}
+		.a{
+			padding-top: 30px;
+			text-transform: uppercase;
+			font-family: prague;
+			letter-spacing: 3px;
+
+		}
+		.b{
+			line-height: 35px;
+			letter-spacing: 1px;
+			word-spacing: 1px;
+			text-align: justify;
+		}
+		.img{
+			width: 100%;
+		}
+		@media(max-width: 700px)
+		{
+			.img{
+				width: 100%;
+				margin-top: 30px;
+			}
+			.a{
+				letter-spacing: 8px;
+				font-weight: bold;
+				font-size: 33px;
+			}
+		}
+		.c{                                                                                                 background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);	
+			width: 100%;
+      padding-right: 0!important;
+      padding-left: 0!important;
+      margin-right: auto;
+      margin-left: auto;
+      background-size: cover;
+      margin-top: 30px;
+      margin-bottom: 30px       
+		}
+	  .container{
+		width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+		.row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .col-md-2{
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .text-center{
+      text-align: center!important;
+    }
+    .col-md-8{
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .mt-20{
+      margin-top: 102px;
+      color: white;
+    }
+    @media(max-width: 600px)
+      {
+        h1{
+        	font-family: prague;
+          color: #fff;
+          font-size: 60px!important;
+          margin-bottom: 0.5rem;
+          font-weight: 500;
+          line-height: 1.2;
+          font-size: 60px;
+        }
+      }
+        p{
+        	font-size: 16px;
+        	margin-top: 0;
+          margin-bottom: 1rem;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }
+    .btn{
+      background-color: #fbac29;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    .e{
+      background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);	
+			width: 100%;
+      padding-right: 0!important;
+      padding-left: 0!important;
+      margin-right: auto;
+      margin-left: auto;
+      background-size: cover;
+      margin-top: 30px;
+    }
+    .f{
+      background-color: #111215;
+    }         
+    .g{
+      background-color: black;
+    }
+    @media(max-width: 600px)
+      {
+        .h1{
+        	font-family: prague;
+        }
+      }
+   	</style>
+</head>
+<body>
+<!--navbar start-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+       <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="weblogo">
+       <img src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png" class="moblogo">
+    </a>
+    <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#a">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     
+    <div class="collapse navbar-collapse" id="a">
+      <ul class="navbar-nav ms-auto">
+      <li><a href="first fiddle.html" class="nav-link">HOME</a></li>
+      <li><a href="about.html" class="nav-link">ABOUT</a></li>
+      <li><a href="brand.html" class="nav-link">BRANDS</a></li>
+      <li><a href="ourteam.html" class="nav-link">OUR TEAM</a></li>
+      <li><a href="pressrelease.html" class="nav-link">PRESS RELEASE</a></li>
+      <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      <li><a href="careers.html" class="nav-link">CAREERS</a></li>
+      <li><a href="" class="nav-link btn btn-warning ">FRANCHISE</a></li>
+      </ul>
+    </div>  
+  </div><!--container-fluid end-->
+</nav>
+<!--nav end-->
+<div class="carousel slide" data-bs-ride="carousel" id="b">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#b" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#b" data-bs-slide-to="1" ></button>
+    <button type="button" data-bs-target="#b" data-bs-slide-to="2" ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="4000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="d-block w-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="margin-top: -200px;">LORD OF THE DRINKS</h1>
+        <!-- <p>Some representative placeholder content for the first slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/plum.jpeg" class="d-block w-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="margin-top: -200px;">OUR STORY</h1>
+        <h3>Some representative placeholder content for the second slide.</h3>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://app.firstfiddle.in/images/brand-banner/dragonflybanner.jpeg" class="d-block w-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#b" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#b" data-bs-slide="next">
+    <span class="carousel-control-next-icon" ></span>
+  </button>
+  </div>
+</div>
+<!--end slider-->
+<div class="container-fluid">
+	<div class="container">
+		<h2 class="text-center a">WELCOME TO <b style="color:#fbaa1a">FIRST FIDDLE</b></h2>
+		<br>
+		<div class="row">
+			<div class="col-md-7">
+				<p class="b">
+					First Fiddle Restaurants, one of India’s most prominent F&B companies in the casual dining sector, is headed by Priyank Sukhija. From Lazeez Affair, the first brand conceived in 1999 to Lord of The Drinks, Dragonfly Experience, Diablo and Plum By Bent Chair, our latest ventures, we have brought a wave of innovation in the hospitality industry throughout. Being one of the India’s largest restaurant chain with over 30+ restaurants, now we are open to franchising routes for expansion and soon hitting the international grounds too.
+				</p>
+				<button class="btn">FIND OUT MORE</button>
+			</div>
+			<div class="col-md-5 text-center">
+				<img src="https://www.firstfiddle.in/assets/images/ffbanner.png" class="img">
+			</div>
+		</div><!--row end-->
+	</div><!--container end-->
+</div><!--container-fluid end-->
+<div class="container-fluid c">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+			<div class="col-md-8 text-center">
+				<h1 class="mt-20">MEDIA MENTIONS</h1>
+				<p style="line-height: 40px; letter-spacing: 1px; color: white;"> 
+					We are making headlines since 1999 for having upmarket conceptualized places, experimental gastronomic affairs, and exotic mixology. From the heart of the country, we are now in the hearts of people in our country!
+				</p>
+				<button class="btn">KNOW MORE</button>
+				<div class="col-md-2"></div>
+			</div>	
+			</div>
+		</div><!--row end-->
+	</div><!--container end-->
+</div><!--container-fluid end-->
+<div class="container-fluid d">
+	<div class="container">
+	    <h2 class="text-center">EXPLORE <b style=" color: #fbaa1a;">OUR BRANDS</b></h2>
+	    <br>
+	    <div class="row">
+		    <div class="col-md-3 text-center">
+			    <img src="https://www.firstfiddle.in/assets/images/imagehome/daddy.jpeg" class="img">
+		    </div>
+		    <div class="col-md-3 text-center">
+			    <img src="https://www.firstfiddle.in/assets/images/imagehome/jalwa.jpeg" class="img">
+		    </div>
+		    <div class="col-md-3 text-center">
+			    <img src="https://www.firstfiddle.in/assets/images/imagehome/flyingsaucer.jpeg" class="img" >
+		    </div>
+		    <div class="col-md-3 text-center">
+			    <img src="https://www.firstfiddle.in/assets/images/imagehome/dragonfly.jpeg" class="img">
+		    </div>
+		</div><!--row end--->    
+	</div><!--container end--->
+</div><!--container-fluid end--->
+<br>
+<div class="container-fluid e">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+			<div class="col-md-8 text-center">
+				<h1 class="mt-20">VISIT OUR OUTLETS</h1>
+				<p style="line-height: 40px; letter-spacing: 1px; color: white;"> 
+					From Indian food to International food and scrumptious fusion eateries, we bring to you the best of both worlds with magical events happening every other night! We're here with the perfect concept resto-bars, which will lift your mundane lives. Have a glance right away
+				</p>
+				<button class="btn">KNOW MORE</button>
+				<div class="col-md-2"></div>
+				<br>
+				<br>
+			</div>	
+			</div>
+		</div><!--row end-->
+	</div><!--container end-->
+</div><!--container-fluid end-->
+<div class="container-fluid f">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="margin-top: 30px; width: 50%; margin-left: 75px;" class="img">
+			</div>
+			<br>
+			<br>
+			<div class="col-md-7">
+				<h2 style="color: #fbac1a; margin-top: 30px; margin-left: 85px;">CONTACT <b style="color: white;">US</b></h2>
+				<p style="line-height: 40px; letter-spacing: 1px; color: white;margin-left: 10px;">We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across India. We are truly committed to catering to the ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
+			
+			<div class="row">
+				<div class="col-md-6" style="padding-top: 10px;">
+					<p style="color: white; margin-left: 10px;"><span style="color: #fbad1b;">Address</span><br>6, Chanakyapuri Shopping Complex, 48, Malcha Marg, New Delhi 110021</p>
+					
+					<p style="color: white; margin-left: 10px;"><span style="color: #fbad1b">HR Enquiry</span><br>Mobile: <b style="color: #fcb21b">+91 9999304427</b><br>Email: <b style="color: #fcb21b">careers@firstfiddle.in</b></p>
+
+				</div>
+				<div class="col-md-6">
+					<p style="color: white; margin-left: 10px;"><span style="color: #fbad1b">Franchise Enquiry</span><br>Mobile: <b style="color: #fcb21b">+91 9313663486</b><br>Email: <b style="color: #fcb21b">franchise@firstfiddle.in</b></p>
+					
+					<p style="color: white; margin-left: 10px;"><span style="color: #fbad1b">Other Enquiry</span><br>Email: <b style="color: #fcb21b">customercare@firstfiddle.in</b></p>
+				</div>
+			</div>
+		    </div>
+		</div><!--row end-->
+	</div><!--container end-->
+</div><!--container-fluid end-->
+<div class="container-fluid g">
+	<div class="container">
+		<div class="row">
+			<p style="text-align: center; color: white; ">PRIVACY POLICY | TERMS AND CONDITIONS | BLOG<br>
+			COPYRIGHT © 2021 FIRST FIDDLE F&B PRIVATE LIMITED</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
